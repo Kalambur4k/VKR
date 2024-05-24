@@ -28,7 +28,5 @@ n2 = n_zad + nS2;
 if (n1 > 1) && (n2 <= nT_per)
    ST(n_zad-nS2:n_zad+nS2) = ampl*S;
 end
-% figure(5); plot(T_per,real(ST),'b',T_per,imag(ST),'r'); grid on;
-% figure(6); stem(real(ST)); grid on;
 
 end
